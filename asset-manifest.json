@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Todolists/static/css/main.aa207b39.chunk.css",
+    "main.js": "/Todolists/static/js/main.b80429de.chunk.js",
+    "main.js.map": "/Todolists/static/js/main.b80429de.chunk.js.map",
+    "runtime-main.js": "/Todolists/static/js/runtime-main.a5ba1ef0.js",
+    "runtime-main.js.map": "/Todolists/static/js/runtime-main.a5ba1ef0.js.map",
+    "static/js/2.1f608c14.chunk.js": "/Todolists/static/js/2.1f608c14.chunk.js",
+    "static/js/2.1f608c14.chunk.js.map": "/Todolists/static/js/2.1f608c14.chunk.js.map",
+    "index.html": "/Todolists/index.html",
+    "precache-manifest.e9bc4efc6383fd126ef699445446f7d9.js": "/Todolists/precache-manifest.e9bc4efc6383fd126ef699445446f7d9.js",
+    "service-worker.js": "/Todolists/service-worker.js",
+    "static/css/main.aa207b39.chunk.css.map": "/Todolists/static/css/main.aa207b39.chunk.css.map",
+    "static/js/2.1f608c14.chunk.js.LICENSE.txt": "/Todolists/static/js/2.1f608c14.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5ba1ef0.js",
+    "static/js/2.1f608c14.chunk.js",
+    "static/css/main.aa207b39.chunk.css",
+    "static/js/main.b80429de.chunk.js"
+  ]
+}
