@@ -46,7 +46,7 @@ function App({demo = false}: PropsType) {
     }
 
     return (
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <div className="App">
                 <ErrorSnackbar/>
                 <AppBar position="static">
