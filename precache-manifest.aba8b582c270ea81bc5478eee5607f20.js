@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b4ccdce87707f8d2895d7b696944f9d",
+    "revision": "21bbdabc3f533d688c81f73bbd45f145",
     "url": "/Todolists/index.html"
   },
   {
-    "revision": "c3bcc2f3209e2901b9bd",
+    "revision": "fbac1d1e8f42fa1d214f",
     "url": "/Todolists/static/css/main.aa207b39.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Todolists/static/js/2.836167c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3bcc2f3209e2901b9bd",
-    "url": "/Todolists/static/js/main.0c856df0.chunk.js"
+    "revision": "fbac1d1e8f42fa1d214f",
+    "url": "/Todolists/static/js/main.2be5cefd.chunk.js"
   },
   {
     "revision": "2bbe966b1a7266edfd93",
