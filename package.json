@@ -1,6 +1,6 @@
 {
   "name": "it-incubator-todolist-ts",
-  "homepage": "https://DinaSem.github.io/Todolists",
+  "homepage": "https://dinasem.github.io/Todolist/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
