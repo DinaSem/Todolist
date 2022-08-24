@@ -16,9 +16,10 @@ import {ErrorSnackbar} from '../components/ErrorSnackbar/ErrorSnackbar'
 import {useDispatch, useSelector} from 'react-redux'
 import {AppRootStateType} from './store'
 import {initializeAppTC, RequestStatusType} from './app-reducer'
-import {BrowserRouter, HashRouter, Route} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import {Login} from '../features/Login/Login'
 import {logoutTC} from '../features/Login/auth-reducer'
+import image from '../letsdoit.png'
 
 type PropsType = {
     demo?: boolean
@@ -49,21 +50,33 @@ function App({demo = false}: PropsType) {
             <div className="App">
                 <ErrorSnackbar/>
                 <AppBar position="static">
-                    <Toolbar>
-                        <IconButton edge="start" color="inherit" aria-label="menu">
-                            <Menu/>
-                        </IconButton>
+                    <Toolbar style={{display: 'flex', justifyContent: 'space-around', backgroundColor:'#5c6389'}}>
+                        <img style={{height:"40px"}} src={image} alt=""/>
+                        {/*<IconButton edge="start" color="inherit" aria-label="menu">*/}
+                        {/*    <Menu/>*/}
+                        {/*</IconButton>*/}
                         <Typography variant="h6">
-                            News
+                            Todolists
                         </Typography>
                         {isLoggedIn && <Button color="inherit" onClick={logoutHandler}>Log out</Button>}
                     </Toolbar>
                     {status === 'loading' && <LinearProgress/>}
                 </AppBar>
-                <Container fixed>
+                <Container fixed style={{minWidth: '100%', minHeight:'85vh',justifyContent:'center',
+                    backgroundColor: '#e9ecef73'}}>
                     <Route exact path={'/'} render={() => <TodolistsList demo={demo}/>}/>
                     <Route path={'/login'} render={() => <Login/>}/>
                 </Container>
+                <Toolbar style={{display: 'flex', justifyContent: 'space-around', backgroundColor:'#5c6389'}}>
+                    {/*<img style={{height:"40px"}} src={image} alt=""/>*/}
+                    {/*/!*<IconButton edge="start" color="inherit" aria-label="menu">*!/*/}
+                    {/*/!*    <Menu/>*!/*/}
+                    {/*/!*</IconButton>*!/*/}
+                    {/*<Typography variant="h6">*/}
+                    {/*    Todolists*/}
+                    {/*</Typography>*/}
+                    {/*{isLoggedIn && <Button color="inherit" onClick={logoutHandler}>Log out</Button>}*/}
+                </Toolbar>
             </div>
 
     )
